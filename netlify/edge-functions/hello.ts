@@ -10,3 +10,7 @@ export default async (req: Request, context: Context) => {
 
   return new Response("Blob has been deleted");
 };
+
+export const config = {
+  path: '/*'
+}
